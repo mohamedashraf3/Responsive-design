@@ -147,7 +147,7 @@ footer {
     }
 
     .product-card img {
-        height: 250px;
+        height: 200px;
     }
 
     .footer-bottom {
@@ -174,21 +174,38 @@ footer {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     
+    .logo img {
+        margin: 10px auto;
+    }
+
+    nav ul li {
+        margin-right: 8px;
+    }
+    .hero {
+        padding: 16px;
+    }
     .product-card {
         width: calc(33% - 32px);
+    }
+
+    .product-card img {
+        height: 41%;
+    }
+    .product-card p{
+    padding: 5px;
+    font-size:12px;
     }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .hero {
-        padding: 48px;
+        padding: 30px;
     }
 
     .product-card {
-        width: calc(30% - 32px);
+        width: calc(29% - 32px);
     }
 }
 @media (min-width: 1281px) {
-  
 
     nav ul {
         justify-content: flex-start;
