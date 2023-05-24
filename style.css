@@ -86,6 +86,12 @@ nav ul li a:hover {
     height: 50%;
 }
 
+.price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0078da;
+    margin-top: 10px;
+}
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -185,7 +191,7 @@ footer {
         padding: 16px;
     }
     .product-card {
-        width: calc(33% - 32px);
+        width: calc(39% - 32px);
     }
 
     .product-card img {
@@ -213,6 +219,9 @@ footer {
 
     .product-card {
         width: calc(30% - 32px);
+    }
+    .product-card img {
+        height: 50%;
     }
 }
 
