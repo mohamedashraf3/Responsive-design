@@ -92,6 +92,9 @@ nav ul li a:hover {
     color: #0078da;
     margin-top: 10px;
 }
+.price:hover{
+color:#57A7E9;
+}
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
