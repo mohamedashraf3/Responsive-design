@@ -91,6 +91,7 @@ nav ul li a:hover {
     font-size: 16px;
     color: #0078da;
     margin-top: 10px;
+     cursor: pointer;
 }
 .price:hover{
 color:#57A7E9;
